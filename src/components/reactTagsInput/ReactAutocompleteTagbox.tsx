@@ -85,7 +85,7 @@ export default function ReactAutocompleteTagbox(props: ReactTagsInputProps) {
   const showPlaceholder = !tags.length && !input && !focused;
 
   return (
-    <div style={{ fontFamily: FONT_FAMILY, width: "inherit" }}>
+    <div style={{ fontFamily: FONT_FAMILY, width: "100%" }}>
       <div
         className={[styles.tagsContainer, props.className]
           .filter(Boolean)

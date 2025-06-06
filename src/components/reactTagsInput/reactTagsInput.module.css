@@ -111,7 +111,8 @@
 .tagsContainer {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
+  /* min-height: 30vh; */
   gap: 8px;
   border: 1.5px solid #e5e7eb;
   border-radius: 20px;
@@ -128,25 +129,30 @@
   box-shadow: 0 0 0 2px #a5b4fc33;
 }
 
+
+
 .badge {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   background: #f3f4f6;
   color: #222;
   border-radius: 18px;
-  padding: 6px 14px 6px 14px;
+  padding: 6px 14px;
   font-size: 16px;
   font-weight: 600;
-  margin-right: 2px;
-  margin-bottom: 2px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
   gap: 6px;
+  max-width: 100%;
 }
 
 .badgeText {
   font-size: 16px;
   font-weight: 600;
   font-family: inherit;
+  white-space: normal;
+  word-break: break-word;
+  display: block;
+  max-width: 100%;
 }
 
 .removeBtn {
@@ -154,15 +160,14 @@
   border: none;
   color: #888;
   font-size: 18px;
-  margin-left: 6px;
   cursor: pointer;
   padding: 0 2px;
   border-radius: 50%;
   transition: background 0.15s, color 0.15s;
-  line-height: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .removeBtn:hover {
@@ -180,7 +185,6 @@
   font-family: inherit;
   background: transparent;
   color: #222;
-  margin-bottom: 2px;
 }
 
 
@@ -199,15 +203,15 @@
   opacity: 1;
 }
 
-.limitWarning{
+.limitWarning {
   color: #aaa;
   font-size: 12px;
   margin-top: 4px;
   font-family: inherit;
-  float:right;
+  float: right;
 }
 
-.limitReached{
+.limitReached {
   color: #e11d48;
 }
 
@@ -239,7 +243,8 @@
 }
 
 /* Suggestion item: no font-weight change, smooth color only */
-.suggestion,.suggestionActive {
+.suggestion,
+.suggestionActive {
   padding: 10px 18px;
   cursor: pointer;
   font-size: 16px;
