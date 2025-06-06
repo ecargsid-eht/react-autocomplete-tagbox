@@ -1,6 +1,6 @@
 {
   "name": "react-autocomplete-tagbox",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "React Autocomplete Tagbox is a modern, customizable React component for tag input with optional autocomplete. Effortlessly add, remove, and select tags with keyboard or mouse. Supports both free-form and restricted tag entry, smart suggestions, and a clean, accessible UI. Perfect for forms, search bars, and dynamic filters. Easy to integrate and fully styleable to match your project.",
   "license": "ISC",
   "author": "Amrit Utsav",

@@ -5,14 +5,15 @@
 ---
 
 
-## 🎬 With Autocomplete
-
-![With Autocomplete](./src/assets/withautocomplete.gif)
-
-
 ## 🎬 Without Autocomplete
 
-![Without Autocomplete](./src/assets/withoutautocomplete.gif)
+![Without Autocomplete](https://i.postimg.cc/TP9hz6qG/withoutautocomplete.gif)
+
+
+## 🎬 With Autocomplete
+
+![With Autocomplete](https://i.postimg.cc/4yr36NZv/withautocomplete.gif
+)
 <!-- Replace with your actual video link or upload to GitHub and use the raw URL -->
 
 
