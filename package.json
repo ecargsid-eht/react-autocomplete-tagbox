@@ -1,0 +1,31 @@
+{
+  "name": "react-autocomplete-tagbox",
+  "version": "0.0.7",
+  "description": "React Autocomplete Tagbox is a modern, customizable React component for tag input with optional autocomplete. Effortlessly add, remove, and select tags with keyboard or mouse. Supports both free-form and restricted tag entry, smart suggestions, and a clean, accessible UI. Perfect for forms, search bars, and dynamic filters. Easy to integrate and fully styleable to match your project.",
+  "license": "ISC",
+  "author": "Amrit Utsav",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "react": "^19.1.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/react": "^19.1.6",
+    "rollup": "^4.41.1",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
