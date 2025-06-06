@@ -7,12 +7,12 @@
 
 ## 🎬 With Autocomplete
 
-![With Autocomplete](https://github-production-user-asset-6210df.s3.amazonaws.com/70902620/452211624-9b46d24b-f3ca-4396-8e91-fa9ddc009698.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250606T080433Z&X-Amz-Expires=300&X-Amz-Signature=0151a0c7262f45a263976df34d6333338621d0121e47b13456eb6a045e2b2338&X-Amz-SignedHeaders=host)
+![With Autocomplete](./src/assets/withautocomplete.gif)
 
 
 ## 🎬 Without Autocomplete
 
-![Without Autocomplete](https://github-production-user-asset-6210df.s3.amazonaws.com/70902620/452211670-95036713-65d0-43da-a28b-88cb5a09139d.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250606T080404Z&X-Amz-Expires=300&X-Amz-Signature=7f42fd09a6694438c44fb75a031ec17358bd5b631778263d3517f3ff3303a94b&X-Amz-SignedHeaders=host)
+![Without Autocomplete](./src/assets/withoutautocomplete.gif)
 <!-- Replace with your actual video link or upload to GitHub and use the raw URL -->
 
 
